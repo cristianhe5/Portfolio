@@ -60,6 +60,10 @@
   font-size: 1.3rem;   
   text-decoration: none;
   padding: 1em 0;
+  transition: color 0.55s;
+}
+.header__a:hover{
+  color:rgb(14, 225, 14) ;
 }
 .header__btns{
   display: flex;
@@ -596,6 +600,7 @@
   width: 100%;
   height: 100%;
   padding-top: 11vh;
+  padding-bottom: 3em;
 }
 .contact__container{
   width: 100%;
@@ -610,6 +615,7 @@
   font-weight: 600;
   font-size: 2.5em;
   color: rgb(14, 225, 14);
+  margin-bottom: 0.5em;
 }
 .contact__form-container{
   width: 100%;

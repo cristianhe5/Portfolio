@@ -82,9 +82,9 @@ function App() {
 
 
         <div className='home__icons-container'>
-          <a className='home__a' href=""><i className='bx bxl-linkedin-square'></i></a>
-          <a className='home__a' href=""><i className='bx bxl-github' ></i></a>
-          <a className='home__a' href=""><i className='bx bx-envelope' ></i></a>
+          <a className='home__a' href="https://www.linkedin.com/in/cristian-hernandez-b259752a2/" target='_blank'><i className='bx bxl-linkedin-square'></i></a>
+          <a className='home__a' href="https://github.com/cristianhe5?tab=repositories" target='_blank'><i className='bx bxl-github' ></i></a>
+          <a className='home__a' href="#contact"><i className='bx bx-envelope' ></i></a>
         </div>
 
       </section>

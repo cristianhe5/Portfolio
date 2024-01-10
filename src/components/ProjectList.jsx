@@ -14,28 +14,28 @@ const ProjectList = () => {
 
       <div className='projects__img-container'>
         <div className='caja'>
-          <img className='caja__img' src="/Screenshot 2023-12-06 185805.png" alt="" />
-          <div className="div_caja">
-            <p className='texto__p'>{mjs.img1}</p>
-          </div>
-        </div>
+          <a href="https://weather-app-eight-nu-11.vercel.app/" target='_blank'>
+            <img className='caja__img' src="/Screenshot 2023-12-06 185805.png" alt="" />
+            <div className="div_caja">
+              <p className='texto__p'>{mjs.img1}</p>
+            </div>            
+          </a>
+        </div> 
         <div className='caja'>
-          <img className='caja__img' src="/Screenshot 2023-12-06 185900.png" alt="" />
-          <div className="div_caja">
-            <p className='texto__p'>{mjs.img2}</p>
-          </div>
+          <a href="https://rick-and-morty-green-ten.vercel.app/" target='_blank'>
+            <img className='caja__img' src="/Screenshot 2023-12-06 190001.png" alt="" />
+            <div className="div_caja">
+              <p className='texto__p'>{mjs.img3}</p>
+            </div>
+          </a>
         </div>  
         <div className='caja'>
-          <img className='caja__img' src="/Screenshot 2023-12-06 190001.png" alt="" />
-          <div className="div_caja">
-            <p className='texto__p'>{mjs.img3}</p>
-          </div>
-        </div>  
-        <div className='caja'>
-          <img className='caja__img' src="/Screenshot 2023-12-06 190033.png" alt="" />
-          <div className="div_caja">
-            <p className='texto__p'>{mjs.img4}</p>
-          </div>
+          <a href="https://pokedex-mu-pearl.vercel.app/" target='_blank'>
+            <img className='caja__img' src="/Screenshot 2023-12-06 190033.png" alt="" />
+            <div className="div_caja">
+              <p className='texto__p'>{mjs.img4}</p>
+            </div>
+          </a>
         </div>  
       </div>
     </section>
